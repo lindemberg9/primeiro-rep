@@ -1,3 +1,2 @@
 # primeiro-rep
-teste de git
-praticando
+## Aprendendo git
