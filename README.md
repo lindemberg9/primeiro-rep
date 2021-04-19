@@ -2,5 +2,4 @@
 ## Aprendendo git
 
 
-Se mexe cara
-seja bem vindo
+
