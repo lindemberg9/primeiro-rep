@@ -32,10 +32,20 @@ function selecionarCampoSelect() {
 
 var emailPromocionalCheck = document.querySelector('#emailPromocionalCheckBoot');
 
-function selecionarCampoEmailCheck(){
+function selecionarCampoEmailCheck() {
     console.log("Object call tipo", Object.prototype.toString.call(emailPromocionalCheck));
     console.log("tagName: ", emailPromocionalCheck.tagName);
     console.log("tagName type: ", emailPromocionalCheck.type);
     console.log("Valor value: ", emailPromocionalCheck.value);
     console.log("Checado: ", emailPromocionalCheck.checked);
+}
+
+var formaContatoRadio = document.querySelector("[name=formaContatoRadioBoot]");;
+
+function selecionarCampoRadio() {
+    console.log("Object call: ", Object.prototype.toString.call(formaContatoRadio));
+    console.log("tagName: ", formaContatoRadio.tagName);
+    console.log("tagName type: ", formaContatoRadio.type);
+    console.log("Valor value: ", formaContatoRadio.value);
+    console.log("Checado: ", formaContatoRadio.checked);
 }
