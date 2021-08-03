@@ -29,3 +29,13 @@ function selecionarCampoSelect() {
     console.log(estadoSelect.length);
     console.log(estadoSelect.disabled = true);
 }
+
+var emailPromocionalCheck = document.querySelector('#emailPromocionalCheckBoot');
+
+function selecionarCampoEmailCheck(){
+    console.log("Object call tipo", Object.prototype.toString.call(emailPromocionalCheck));
+    console.log("tagName: ", emailPromocionalCheck.tagName);
+    console.log("tagName type: ", emailPromocionalCheck.type);
+    console.log("Valor value: ", emailPromocionalCheck.value);
+    console.log("Checado: ", emailPromocionalCheck.checked);
+}
