@@ -49,3 +49,12 @@ function selecionarCampoRadio() {
     console.log("Valor value: ", formaContatoRadio.value);
     console.log("Checado: ", formaContatoRadio.checked);
 }
+
+var radios = document.getElementsByName("formaContatoRadioBoot");
+function selecionarCamposRadios() {
+    console.log("Object: ", Object.prototype.toString.call(radios));
+}
+
+var checkeds = document.getElementsByClassName("checkbox");
+
+var selects = document.getElementsByTagName("select");
