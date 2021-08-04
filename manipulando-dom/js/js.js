@@ -60,3 +60,11 @@ var checkeds = document.getElementsByClassName("checkbox");
 var selects = document.getElementsByTagName("select");
 
 var elementos = document.querySelectorAll("input[type=text]");
+
+var formulario = document.querySelector("#formBoot");
+
+console.log("form tipo: ", Object.prototype.toString.call(formBoot));
+
+function exibirDados(elemento){
+    console.log(elemento);
+}
