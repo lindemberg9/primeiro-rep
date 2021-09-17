@@ -52,3 +52,31 @@ for (var key in objetoPessoa.endereco){
     console.log(key, objetoPessoa.endereco[key]);
 }
 console.log(objetoPessoa.saudacao());
+
+console.log("==============================");
+
+// Criar objet com construtor Object
+var objetoProduto = new Object();
+objetoProduto.nome = "Mesa";
+objetoProduto.preco = 1500;
+objetoProduto.dimencoes = {largura: "128 mm", comprimento: "200 mm", altura: "90 mm"};
+objetoProduto["nome no formaato string valido"] = "deu certo";
+var nomeProp = "novoNome";
+objetoProduto[nomeProp] = "deu certo o novo nome";
+objetoProduto[""] = "vasio";
+objetoProduto['123'] = 123;
+
+// acessar usando operador menbro;
+console.log("Produto:", objetoProduto.nome);
+var preco = objetoProduto.preco;
+console.log("Preço:", preco.toFixed(2));
+console.log("Dimenções:")
+for (var key in objetoProduto.dimencoes){
+    console.log(key, objetoProduto.dimencoes[key]);
+}
+console.log(objetoProduto["nome no formaato string valido"]);
+console.log(objetoProduto["novoNome"]);
+console.log(objetoProduto[nomeProp]);
+console.log(objetoProduto.novoNome);
+console.log(objetoProduto[""]);
+console.log(objetoProduto['123']);
